@@ -4,4 +4,7 @@ var SongQueue = Songs.extend({
   initialize: function(){
   }
 
+  //enqueue should take one song
+  //  store it... somewhere ?
+
 });

@@ -1,0 +1,22 @@
+html body {
+  background-color: #222;
+  color: white;
+  font-family: 'roboto' sans-serif;
+  text-align: center;
+}
+
+body>div{
+  position: relative;
+  top: 25%;
+}
+
+table {
+  border: 1px solid #CCC;
+  position: absolute;
+  left: calc(50% - 152px);
+}
+
+td:last-child {
+  text-decoration: underline;
+  color: #CCC;
+}
