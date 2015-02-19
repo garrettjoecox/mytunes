@@ -13,10 +13,10 @@ body>div{
 table {
   border: 1px solid #CCC;
   position: absolute;
-  left: calc(50% - 152px);
+  left: calc(50% - 179px);
 }
 
-td:last-child {
+td:nth-child(2), td:last-child {
   text-decoration: underline;
   color: #CCC;
 }
