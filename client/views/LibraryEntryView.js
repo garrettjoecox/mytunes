@@ -8,6 +8,7 @@ var LibraryEntryView = Backbone.View.extend({
   events: {
     'click': function(thing) {
       if (thing.target.innerHTML !== "Queue"){
+        console.log(this.model)
         this.model.play();
       }else{
         this.model.enqueue();

@@ -22,5 +22,9 @@ var SongQueue = Songs.extend({
   ended: function(){
     this.models.shift();
     this.playFirst();
+  },
+
+  removeQueue: function(song){
+    this.models.splice(this.models.indexOf(song), 1);
   }
 });

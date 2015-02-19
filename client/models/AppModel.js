@@ -22,6 +22,9 @@ var AppModel = Backbone.Model.extend({
     params.library.on('ended', function(){
       this.get('songQueue').ended();
     }, this);
+    params.library.on('removeQueue', function(song){
+      this.get('songQueue').removeQueue(song);
+    }, this);
     // play next song listener
   }
 
