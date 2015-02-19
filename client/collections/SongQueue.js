@@ -5,6 +5,7 @@ var SongQueue = Songs.extend({
   },
 
   enqueue: function(song){
+    // Modified backbone src code (line 681) to not merge duplicate models
     this.add(song, {merge: false});
     if (this.models.length < 2) {
       this.playFirst();
