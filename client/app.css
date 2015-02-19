@@ -10,13 +10,21 @@ body>div{
   top: 25%;
 }
 
-table {
+.library {
   border: 1px solid #CCC;
   position: absolute;
   left: calc(50% - 179px);
+}
+.queue {
+  border: 1px solid #CCC;
+  position: absolute;
+  left: calc(50% - 179px);
+  top: 150px;
 }
 
 td:nth-child(2), td:last-child {
   text-decoration: underline;
   color: #CCC;
 }
+
+
