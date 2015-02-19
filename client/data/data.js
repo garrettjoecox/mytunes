@@ -1,23 +1,23 @@
 // data.js - Defines an array of data regarding song files and their accompanying details.
 var songData = [
   {
-    url: "https://s3-us-west-1.amazonaws.com/hr-mytunes/data/04+One+In+A+Million.mp3",
-    title: "One In A Million",
-    artist: "Aaliyah",
+    url: "http://media.soundcloud.com/stream/gz3GdfXGJYf8.mp3",
+    title: "Funshine [Fundub Mix]",
+    artist: "Fredness",
   },
   {
-    url: "https://s3-us-west-1.amazonaws.com/hr-mytunes/data/03+Age+Ain%27t+Nothing+But+A+Number.mp3",
-    title: "Age Ain't Nothing But A Number",
-    artist: "Aaliyah",
+    url: "http://media.soundcloud.com/stream/kE0N9dMM6GEH.mp3",
+    title: "House Beautiful",
+    artist: "Fredness",
   },
   {
-    url: "https://s3-us-west-1.amazonaws.com/hr-mytunes/data/05+Hot+Like+Fire.mp3",
-    title: "Hot Like Fire",
-    artist: "Aaliyah",
+    url: "http://media.soundcloud.com/stream/6vpHjy3Fw5qf.mp3",
+    title: "Melon 5",
+    artist: "Fredness",
   },
   {
-    url: "https://s3-us-west-1.amazonaws.com/hr-mytunes/data/06+If+Your+Girl+Only+Knew.mp3",
-    title: "If Your Girl Only Knew",
-    artist: "Aaliyah",
+    url: "http://media.soundcloud.com/stream/qblgQj4SsTos.mp3",
+    title: "Live @ Quench",
+    artist: "Fredness",
   }
 ];

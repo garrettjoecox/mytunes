@@ -5,7 +5,7 @@ var SongQueue = Songs.extend({
   },
 
   enqueue: function(song){
-    this.add(song);
+    this.add(song, {merge: false});
     if (this.models.length < 2) {
       this.playFirst();
     }
@@ -26,5 +26,7 @@ var SongQueue = Songs.extend({
 
   removeQueue: function(song){
     this.models.splice(this.models.indexOf(song), 1);
+    // use this.models.splice instead of this.remove
+    //   so can remove duplicate songs in queue
   }
 });

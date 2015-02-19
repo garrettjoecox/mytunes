@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="bower_components/materialize/dist/css/materialize.min.css" type="text/css">
     <link rel="stylesheet" href="app.css" type="text/css">
   </head>
-  <body>
-    <h1>myTunes</h1>
+  <body class="grey lighten-2">
+    <nav class="blue darken-2">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" class="center brand-logo">myTunes</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="card">
+            <div id="main" class="card-content">
+            </div>
+        </div>
+    </div>
     <!-- Scripts may be placed anywhere on a page. But FYI, they block rendering of elements
      below them until after the scripts load-->
     <script src="bower_components/jquery/jquery.min.js"></script>
@@ -38,7 +51,7 @@
 
 
         // put the view onto the screen
-        $('body').append(appView.render());
+        $('#main').append(appView.render());
       });
     </script>
   </body>

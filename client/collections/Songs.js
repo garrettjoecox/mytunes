@@ -2,7 +2,6 @@
 var Songs = Backbone.Collection.extend({
 
   model: SongModel
-
   // event listeners here
   //   t
 
