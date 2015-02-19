@@ -2,7 +2,7 @@
 var SongQueueView = Backbone.View.extend({
 
   tagName: "table",
-  className: "queue",
+  className: "centered",
   initialize: function() {
     this.render();
     this.collection.on('removeQueue', this.render, this);
